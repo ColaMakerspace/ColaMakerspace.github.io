@@ -1,0 +1,4 @@
+name: ColaMakerspace
+
+# Build settings
+markdown: kramdown
