@@ -1,0 +1,59 @@
+--- layout: default title: CMS Membership ---
+<h1>{{ page.title }}</h1>
+
+<p>Membership is $30 per month. Payments made through PayPal include an additional processing fee which covers the transaction
+    fees.</p>
+
+<p>Currently we accept membership payment in these forms:</p>
+
+<ul>
+    <li>Swiped credit/debit card</li>
+    <li>Paypal</li>
+    <li>Bitcoin</li>
+</ul>
+
+<hr>
+
+<h2>Membership Subscriptions</h2>
+
+<p>You can use any of the following buttons to subscribe to automatic payments.</p>
+
+<!-- Paypal Button -->
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input name="cmd" type="hidden" value="_s-xclick" />
+    <input name="hosted_button_id" type="hidden" value="ZXKY8GD4T3YWS" />
+    <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif"
+        type="image" /> <img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0"
+    />
+</form>
+
+<!-- Coinbase Button -->
+<p><a class="coinbase-button" data-code="882b567a4603c2bc10b265f414c41b1a" data-button-style="subscription_large" href="https://www.coinbase.com/checkouts/882b567a4603c2bc10b265f414c41b1a">Pay With Bitcoin</a>
+    <script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
+</p>
+
+<hr>
+
+<h2>Non-Subscription Payments</h2>
+
+<p>You can use any of the following buttons to make a one time payment.</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick"><br />
+    <input type="hidden" name="hosted_button_id" value="KFT4Q6VHAWD8W"></p>
+    <table>
+        <tr>
+            <td><input type="hidden" name="on0" value="Monthly Memberships">Monthly Memberships</td>
+        </tr>
+        <tr>
+            <td><select name="os0"><option value="1 Month">1 Month $31.20 USD</option><option value="2 Month">2 Month $62.10 USD</option><option value="3 Month">3 Month $93.00 USD</option></select></td>
+        </tr>
+    </table>
+    <p><input type="hidden" name="currency_code" value="USD"><br />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><br
+        />
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"><br />
+</form>
+
+<a class="coinbase-button" data-code="88aebe6a814ba5c58d64b791d820ea8f" href="https://www.coinbase.com/checkouts/88aebe6a814ba5c58d64b791d820ea8f">Donate With Bitcoin</a>
+<script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
