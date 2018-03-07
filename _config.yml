@@ -1,4 +1,6 @@
 name: ColaMakerspace
+title: Cola Makerspace
+description: Cola Makerspace Website
 
 # Build settings
 markdown: kramdown
