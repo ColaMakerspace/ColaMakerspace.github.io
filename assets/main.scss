@@ -3,3 +3,25 @@
 ---
 
 @import "main";
+
+footer .copyrights {
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer .social-media {
+	font-size: 36px;
+
+	a {
+		color: rgba(255, 255, 255, 0.8);
+
+		:hover {
+			color: white;
+		}
+	}
+}
+
+.page-footer .footer-copyright {
+	padding: 0;
+}
