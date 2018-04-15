@@ -12,10 +12,8 @@ footer .copyrights {
 
 footer .social-media {
 	font-size: 36px;
-
 	a {
 		color: rgba(255, 255, 255, 0.8);
-
 		:hover {
 			color: white;
 		}
@@ -25,3 +23,78 @@ footer .social-media {
 .page-footer .footer-copyright {
 	padding: 0;
 }
+
+ul.benefits{
+	padding-left: 20px;
+}
+
+ul.benefits li{
+	list-style-type: circle;
+}
+
+.card-row{
+	padding: 0 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+[class*="card-4"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+	.card-4{ width:45%}
+}
+
+.card-4{
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	float:left;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+.card-body{
+	height: 350px ;
+	overflow:hidden;
+}
+
+.card-header{
+	align-items: center;
+	height: 110px;
+}
+
+.card-footer{
+}
+.card-header-text{
+	display: flex;
+	justify-content: center;
+}
+
+.card-container{
+	padding:0.01em 16px;
+}
+
+.card-container:after,.card-container:before,.card-panel:after,.card-panel:before,.card-row:after,.card-row:before,.card-row-padding:after,.card-row-padding:before,
+.card-cell-row:before,.card-cell-row:after,.card-clear:after,.card-clear:before,.card-bar:before,.card-bar:after{content:"";display:table;clear:both}
+
+.card-blue{
+	color:#fff!important;
+	background-color: #5c6bc0 !important;
+}
+
+
+.masonry-layout{
+	column-count: 2;
+	column-gap: 0;
+}
+.masonry-layout-panel{
+	break-inside: avoid;
+	padding: 5px;
+}
+.masonry-layout-content{
+	padding: 10px;
+	border-radius: 10px;
+}
+
